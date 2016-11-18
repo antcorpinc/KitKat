@@ -1,0 +1,11 @@
+﻿{
+  "MailSettings": {
+    "ToAddress": "ronit@cybage.com"
+  },
+  "ConnectionStrings": {
+    "KitContextConnection": "data source=.\\sqlexpress;initial catalog=KitKatDb;Trusted_Connection=true;MultipleActiveResultSets=true;"
+  },
+  "Keys": {
+    "BingKey": "AoaXe_GrgNmRuIdpZ98Xl9R7qbYag6WCUi7_NiTeOKWcYwPp-GeTwjoePnBvhVmD"
+  }
+}

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<KitKat.Models.Role>
+
+@{
+    <h1>Home View</h1>
+
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>@item.RoleName</li>
+
+        }
+    </ul>
+
+    <div class="col-md-12">
+       <a asp-controller="Home" asp-action="Roles" class="btn btn-lg btn-success">vIEW My Roles </a>        
+
+    </div>
+}

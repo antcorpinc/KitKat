@@ -1,0 +1,13 @@
+﻿@model IEnumerable<KitKat.Models.Role>
+
+@{
+    <h1>Roles View</h1>
+
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>@item.RoleName</li>
+
+        }
+    </ul>
+}
